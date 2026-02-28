@@ -1,0 +1,20 @@
+pkgbase = qcom-camx-kodiak
+	pkgdesc = Qualcomm CamX camera HAL prebuilt for Kodiak (QCM6490)
+	pkgver = 1.0.12
+	pkgrel = 3
+	url = https://softwarecenter.qualcomm.com
+	arch = aarch64
+	license = LicenseRef-Qualcomm-Proprietary
+	depends = qcom-camxlib-kodiak
+	depends = qcom-camxfirmware-kodiak
+	depends = qcom-sensors-prebuilts
+	depends = protobuf-33.5
+	depends = abseil-cpp-20260107
+	options = !strip
+	backup = var/cache/camera/camxoverridesettings.txt
+	source = https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/component/camx.qclinux.0.0/260224.1/prebuilt_yocto/camx-kodiak_1.0.12_armv8-2a.tar.gz
+	source = camxoverridesettings.txt
+	sha256sums = 734fcff71ca3d863aa7ce3de5a889a92ec96a56d42025abb36dd4c85e99080cf
+	sha256sums = SKIP
+
+pkgname = qcom-camx-kodiak

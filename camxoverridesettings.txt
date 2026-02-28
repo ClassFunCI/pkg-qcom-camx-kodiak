@@ -1,0 +1,4 @@
+; This is a comment
+
+; Disable NCS service on Radxa Dragon Q6A due to SensorPD being disabled
+enableNCSService=FALSE
